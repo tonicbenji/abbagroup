@@ -1,0 +1,697 @@
+/* Utilities */
+
+.text-center {
+    text-align: center;
+}
+
+.text-contact-lg {
+    font-size: 20px !important;
+    font-weight: bold !important;
+}
+
+.text-contact-md {
+    font-size: 16px !important;
+}
+
+.block {
+    display: block;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.flex-center-horizontal {
+    display: flex;
+    justify-content: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* Global */
+
+.menuItem {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    color: #cccccc;
+}
+
+.menuItem a {
+        color: #cccccc;
+    }
+
+.financity-body a:hover {
+            color: white;
+        }
+
+.financity-body .gdlr-core-text-box-item-content h3 {
+                margin-top: 55px;
+                margin-bottom: 25px;
+            }
+
+.financity-body h6 {
+            font-size: 20px !important;
+        }
+
+.financity-body h6 .h7 {
+                font-size: 16px !important;
+            }
+
+.financity-body #contact-details a:hover {
+            color: #174278 !important;
+        }
+
+.financity-footer-wrapper a:hover {
+            color: rgba(255,255,255,0.7) !important;
+        }
+
+.financity-footer-wrapper .financity-footer-column ul {
+            list-style: none;
+            margin: 10px 0 0 0;
+        }
+
+.financity-header-background-transparent .financity-navigation-bar-wrap .financity-navigation-background,
+    .financity-navigation-bar-wrap.financity-fixed-navigation .financity-show-in-sticky.financity-style-transparent {
+        opacity: 0.9 !important;
+    }
+
+.gdlr-core-personnel-list-image img {
+    width: 100%;
+}
+
+.about-tile-1 {
+    margin-right: 30px;
+}
+
+h2.content-title {
+    font-size: 36px !important;
+    padding: 75px 0 30px 0;
+}
+
+.content .icon-grid-item {
+        margin-top: 30px;
+    }
+
+.content .fa {
+        color: #174278;
+    }
+
+.multi-col-list {
+    column-count: 3;
+    padding-top:    10px;
+    padding-bottom: 10px;
+}
+
+@media(max-width: 419px) {
+
+.multi-col-list {
+        column-count: 1
+}
+    }
+
+@media(max-width: 767px) {
+
+.multi-col-list {
+        column-count: 2
+}
+    }
+
+.multi-col-list ul {
+        display: table;
+    }
+
+.multi-col-list li {
+        list-style: none;
+        display: table-row;
+    }
+
+.multi-col-list li:before {
+            content: '✓';
+            padding-right: .3em;
+            display: table-cell;
+            text-align: right;
+            font-weight: bold;
+            color: #174278;
+        }
+
+.multi-col-list.no-columns {
+        column-count: 1;
+    }
+
+.menu-right {
+    position: absolute;
+    right: 35px;
+    top: 17px;
+}
+
+.form-cloudBg {
+    background-color: rgb(55, 82, 127);
+}
+
+/* Footer */
+
+footer {
+    background-color: #262626;
+}
+
+.home-footer-heading-buy, .home-footer-heading-sell {
+            font-weight: bold;
+            font-family: "Montserrat", sans-serif;
+            font-size: 16px;
+            color: white !important;
+        }
+
+@media (max-width: 782px) {
+
+.home-footer-heading-buy, .home-footer-heading-sell {
+                margin-top:    8px;
+                margin-bottom: 8px
+        }
+            }
+
+.home-footer-heading-nsw {
+            margin-top: 0 !important;
+            margin-bottom: 0 !important;
+        }
+
+.home-footer-container {
+        width: 70%;
+        max-width: 1050px;
+        margin: 20px auto 20px auto;
+        display: block;
+    }
+
+.home-footer-container-buy, .home-footer-container-sell {
+            display: flex;
+        }
+
+.footer-home-left {
+            flex: 0 0 60px;
+        }
+
+.footer-home-right {
+            flex: 0 0 90%;
+        }
+
+.footer-home-right ul {
+                list-style: none;
+                margin: 20px auto 20px auto;
+                column-count: 4;
+            }
+
+.footer-home-right ul li {
+                    margin-left: 18px;
+                    margin-right: 18px;
+                }
+
+@media (max-width: 782px) {
+
+.footer-home-right ul li {
+                        margin-top:    8px;
+                        margin-bottom: 8px
+                }
+                    }
+
+.footer-home-right ul a {
+                    color: white;
+                }
+
+.footer-home-right ul a:hover {
+                        color: rgba(255,255,255,0.7);
+                    }
+
+@media (max-width: 1310px) {
+
+.footer-home-right ul {
+                    column-count: 3
+            }
+                }
+
+@media (max-width: 1045px) {
+
+.footer-home-right ul {
+                    column-count: 2
+            }
+                }
+
+@media (max-width: 782px) {
+
+.footer-home-right ul {
+                    column-count: 1
+            }
+                }
+
+.footerSeparator {
+        margin: 0 20px;
+    }
+
+.footerBreadcrumbs {
+        background-color: #262626;
+        color: white;
+    }
+
+.footerBreadcrumbs a {
+            color: white;
+        }
+
+.footerBreadcrumbs a:hover {
+                color: rgba(255,255,255,0.7);
+            }
+
+.abbaCopyright {
+    padding: 15px 5px 15px 5px;
+    background-color: #262626;
+    text-align: center;
+    color: white;
+}
+
+.abbaCopyright a {
+        color: white;
+    }
+
+.abbaCopyright a:hover {
+            color: rgba(255,255,255,0.7);
+        }
+
+.sydneyFooterTop {
+    height: 15px;
+    background-color: #262626;
+}
+
+/* About Us page (About Page) */
+
+#about .gdlr-core-personnel-list-content-wrap {
+        min-height: 260px;
+    }
+
+#about h3.gdlr-core-column-service-title.gdlr-core-skin-title {
+        margin: 0;
+    }
+
+/* Contact Us page (Contact Page) */
+
+@media(max-width: 600px) {
+    .flex-center-horizontal {
+        flex-direction: column;
+    }
+}
+
+/* Home page */
+
+.abbaButton {
+    border: none;
+    padding: 15px 42px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.abbaButton-buy {
+        background-color: #133064;
+        color: white !important;
+    }
+
+.abbaButton-buy:hover {
+            background-color: #334670;
+        }
+
+.abbaButton-sell {
+        background-color: white;
+        color: #133064 !important;
+    }
+
+.abbaButton-sell:hover {
+            background-color: #C6D0DD;
+        }
+
+#home-buy-header {
+        font-size: 42px;
+        font-weight: 600;
+        letter-spacing: 0px;
+        text-transform: none;
+        color: #174278;
+    }
+
+#home-buy-header:hover {
+            color: #334670 !important;
+        }
+
+#home-sell-header {
+        font-size: 42px;
+        font-weight: 600;
+        letter-spacing: 0px;
+        text-transform: none;
+        color: #ffffff;
+    }
+
+#home-sell-header:hover {
+            color: #C6D0DD !important;
+        }
+
+/* Directory page */
+
+#directory h4:after, #directory h5:after, #directory h6:after, #directory h7:after {
+        content: " »";
+    }
+
+#directoryUl  {
+        margin-bottom: 50px;
+    }
+
+@media(min-width: 950px) {
+
+#directoryUl  {
+            column-count: 2
+    }
+        }
+
+/* Region pages */
+
+#sydney footer ul, #nsw footer ul {
+        width: 70%;
+        max-width: 900px;
+        list-style: none;
+        margin: 20px auto 20px auto;
+        column-count: 4;
+    }
+
+#sydney footer ul a, #nsw footer ul a {
+            color: white;
+        }
+
+#sydney footer ul a:hover, #nsw footer ul a:hover {
+                color: rgba(255,255,255,0.7);
+            }
+
+@media (max-width: 1310px) {
+
+#sydney footer ul, #nsw footer ul {
+            width: 60%;
+            column-count: 3
+    }
+        }
+
+@media (max-width: 1045px) {
+
+#sydney footer ul, #nsw footer ul {
+            column-count: 2
+    }
+        }
+
+@media (max-width: 782px) {
+        #sydney footer ul, #nsw footer ul, #suburb footer ul {
+            column-count: 1;
+        }
+}
+
+#suburb footer ul {
+        width: 60%;
+        list-style: none;
+        column-count: 3;
+        text-align: center;
+        max-width: 750px;
+        margin: 20px auto 20px auto;
+}
+
+#suburb footer ul a {
+            color: white;
+        }
+
+#suburb footer ul a:hover {
+                color: rgba(255,255,255,0.7);
+            }
+
+@media (max-width: 1045px) {
+    #suburb footer ul {
+        column-count: 2;
+    }
+}
+
+@media (max-width: 500px) {
+    #suburb footer ul {
+        column-count: 1;
+    }
+}
+
+.regionFooterHeading {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    margin: 20px 0 20px 0;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.select-breadcrumb-separator {
+    color: #cccccc;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    margin: 0 20px;
+}
+
+/* CTA Section */
+
+.gdlr-core-page-builder-body [data-skin="Home CTA"] .gdlr-core-button:hover {
+    background-color: #C6D0DD;
+}
+
+/* Australia Pages (Aus Pages) */
+
+@media(max-width: 767px) {
+    #aus
+        &-main-img {
+            display: none;
+        }
+        .content .icon-grid-item {
+            margin-top: 0;
+        }
+}
+
+@media(max-width: 999px) {
+
+#headTitleWrap {
+        margin-top: -230px
+}
+    }
+
+/* All article pages */
+
+@media(max-width: 767px) {
+    .gdlr-core-column-30 .gdlr-core-pbf-column-content-margin .gdlr-core-center-align .gdlr-core-image-item-style-rectangle img {
+        margin-top: 120px;
+    }
+}
+
+/* Contact form */
+
+.form-with-image-bg input,
+    .form-with-image-bg textarea {
+        background-color: white !important;
+    }
+
+.form-with-image-bg .alt-contact {
+        font-size: 24px;
+        font-weight: bold;
+        color: white;
+        white-space: nowrap;
+        text-align: center;
+        padding-top: 40px;
+    }
+
+.form-with-image-bg .alt-contact-item {
+            display: inline-block;
+        }
+
+.form-with-image-bg a,
+    .form-with-image-bg i,
+    .form-with-image-bg .alt-contact-item {
+        color: white !important;
+        margin: 10px 14px 0 0;
+    }
+
+.form-with-image-bg a:hover,
+    .form-with-image-bg i:hover,
+    .form-with-image-bg .alt-contact-item:hover {
+        color: #cccccc !important;
+    }
+
+.form-with-image-bg h4 {
+        text-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important;
+    }
+
+.form-with-image-bg input[type="submit"]:hover {
+        background-color: #1D81C9 !important;
+        color: white;
+    }
+
+#abbaForm .form-dropdown {
+        padding: 22px;
+    }
+
+#abbaForm .select-box {
+        cursor: pointer;
+        position : relative;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+#abbaForm .select,
+    #abbaForm .label {
+        color: #4e4e4e;
+        display: block;
+        font-size: 15px;
+        font-family: "Open Sans", sans-serif;
+    }
+
+#abbaForm .select {
+        width: 100%;
+        position: absolute;
+        top: 0;
+        padding: 5px 0;
+        height: 70px;
+        opacity: 0;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+        background: none transparent;
+        border: 0 none;
+    }
+
+#abbaForm .select-box1 {
+        background: white;
+    }
+
+#abbaForm .label {
+        position: relative;
+        padding: 5px 10px;
+        cursor: pointer;
+        padding: 22px 25px;
+    }
+
+#abbaForm .label::after {
+        content: "⋁";
+        font-size: 12px;
+        position: absolute;
+        right: 0;
+        top: 0;
+        padding: 5px 15px;
+        padding: 22px 25px;
+    }
+
+#abbaForm #signUp label,
+    #abbaForm label[for="signUp"]
+    {
+        color: white;
+        display: inline-block;
+    }
+
+@media (max-width: 782px) {
+
+#abbaForm #signUp label,
+    #abbaForm label[for="signUp"]
+    {
+            text-align: center
+    }
+        }
+
+#abbaForm .signUp {
+        font-weight: bold;
+    }
+
+#abbaForm .signUp label {
+            margin: 5px;
+        }
+
+#abbaForm #formSubmitBtn {
+        margin-top: 4px;
+    }
+
+#abbaForm #signUp {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+@media (max-width: 782px) {
+
+#abbaForm #signUp {
+            margin-left: 30px
+    }
+        }
+
+#abbaForm #signUp label {
+            width: 34px;
+            display: inline-block;
+            margin: 0 !important;
+        }
+
+#abbaForm #signUpContainer {
+        text-align: right;
+    }
+
+@media (max-width: 782px) {
+
+#abbaForm #signUpContainer {
+            text-align: left;
+            margin-bottom: 30px
+    }
+        }
+
+#abbaForm .dependentField {
+        margin-left: 30px;
+        width: calc(100% - 30px);
+    }
+
+#abbaForm .formSubmitBtnContactPage:hover {
+        background-color: #174278 !important;
+    }
+
+#formBottomSpace {
+    height: 89px;
+}
+
+#formSubmitted,
+#formSubmittedMobile
+{
+    font-size: 24px;
+    color: #174278;
+    background-color: rgba(255,255,255,0.8);
+    position: relative;
+    float: right;
+    border-radius: .3rem;
+    padding: 2rem;
+    margin: 55px 35px 52px 20px;
+    display: none;
+}
+
+@media (max-width: 782px) {
+    #formSubmittedMobile {
+        padding: 10px;
+        margin: 0 0 30px 0;
+        font-size: 16px;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+.gdlr-core-page-builder-body img,
+.form-with-image-bg input,
+.form-with-image-bg textarea {
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important;
+}
+
+body .gdlr-core-input-wrap.gdlr-core-large textarea#nonHubspotTextarea {
+    height: 100%;
+}
