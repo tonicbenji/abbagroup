@@ -48,43 +48,43 @@
 }
 
 .menuItem a {
-        color: #cccccc;
-    }
+    color: #cccccc;
+}
 
 .financity-body a:hover {
-            color: white;
-        }
+    color: white;
+}
 
 .financity-body .gdlr-core-text-box-item-content h3 {
-                margin-top: 55px;
-                margin-bottom: 25px;
-            }
+    margin-top: 55px;
+    margin-bottom: 25px;
+}
 
 .financity-body h6 {
-            font-size: 20px !important;
-        }
+    font-size: 20px !important;
+}
 
 .financity-body h6 .h7 {
-                font-size: 16px !important;
-            }
+    font-size: 16px !important;
+}
 
 .financity-body #contact-details a:hover {
-            color: #174278 !important;
-        }
+    color: #174278 !important;
+}
 
 .financity-footer-wrapper a:hover {
-            color: rgba(255,255,255,0.7) !important;
-        }
+    color: rgba(255,255,255,0.7) !important;
+}
 
 .financity-footer-wrapper .financity-footer-column ul {
-            list-style: none;
-            margin: 10px 0 0 0;
-        }
+    list-style: none;
+    margin: 10px 0 0 0;
+}
 
 .financity-header-background-transparent .financity-navigation-bar-wrap .financity-navigation-background,
-    .financity-navigation-bar-wrap.financity-fixed-navigation .financity-show-in-sticky.financity-style-transparent {
-        opacity: 0.9 !important;
-    }
+.financity-navigation-bar-wrap.financity-fixed-navigation .financity-show-in-sticky.financity-style-transparent {
+    opacity: 0.9 !important;
+}
 
 .gdlr-core-personnel-list-image img {
     width: 100%;
@@ -100,12 +100,12 @@ h2.content-title {
 }
 
 .content .icon-grid-item {
-        margin-top: 30px;
-    }
+    margin-top: 30px;
+}
 
 .content .fa {
-        color: #174278;
-    }
+    color: #174278;
+}
 
 .multi-col-list {
     column-count: 3;
@@ -115,39 +115,39 @@ h2.content-title {
 
 @media(max-width: 419px) {
 
-.multi-col-list {
+    .multi-col-list {
         column-count: 1
-}
     }
+}
 
 @media(max-width: 767px) {
 
-.multi-col-list {
+    .multi-col-list {
         column-count: 2
-}
     }
+}
 
 .multi-col-list ul {
-        display: table;
-    }
+    display: table;
+}
 
 .multi-col-list li {
-        list-style: none;
-        display: table-row;
-    }
+    list-style: none;
+    display: table-row;
+}
 
 .multi-col-list li:before {
-            content: '✓';
-            padding-right: .3em;
-            display: table-cell;
-            text-align: right;
-            font-weight: bold;
-            color: #174278;
-        }
+    content: '✓';
+    padding-right: .3em;
+    display: table-cell;
+    text-align: right;
+    font-weight: bold;
+    color: #174278;
+}
 
 .multi-col-list.no-columns {
-        column-count: 1;
-    }
+    column-count: 1;
+}
 
 .menu-right {
     position: absolute;
@@ -166,108 +166,114 @@ footer {
 }
 
 .home-footer-heading-buy, .home-footer-heading-sell {
-            font-weight: bold;
-            font-family: "Montserrat", sans-serif;
-            font-size: 16px;
-            color: white !important;
-        }
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    color: white !important;
+}
 
 @media (max-width: 782px) {
 
-.home-footer-heading-buy, .home-footer-heading-sell {
-                margin-top:    8px;
-                margin-bottom: 8px
-        }
-            }
+    .home-footer-heading-buy, .home-footer-heading-sell {
+        margin-top:    8px;
+        margin-bottom: 8px
+    }
+}
 
 .home-footer-heading-nsw {
-            margin-top: 0 !important;
-            margin-bottom: 0 !important;
-        }
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
 
 .home-footer-container {
-        width: 70%;
-        max-width: 1050px;
-        margin: 20px auto 20px auto;
-        display: block;
-    }
+    width: 70%;
+    max-width: 1050px;
+    margin: 20px auto 20px auto;
+    display: block;
+}
 
 .home-footer-container-buy, .home-footer-container-sell {
-            display: flex;
-        }
+    display: flex;
+}
 
 .footer-home-left {
-            flex: 0 0 60px;
-        }
+    flex: 0 0 60px;
+}
 
 .footer-home-right {
-            flex: 0 0 90%;
-        }
+    flex: 0 0 90%;
+}
 
 .footer-home-right ul {
-                list-style: none;
-                margin: 20px auto 20px auto;
-                column-count: 4;
-            }
+    list-style: none;
+    margin: 20px auto 20px auto;
+    column-count: 4;
+}
 
 .footer-home-right ul li {
-                    margin-left: 18px;
-                    margin-right: 18px;
-                }
+    /* margin-left: 18px; */
+    /* margin-right: 18px; */
+    margin: 9px 18px;
+    line-height: 1.5;
+}
+
+.footer-home-right ul li {
+    margin-top: 0;
+}
 
 @media (max-width: 782px) {
 
-.footer-home-right ul li {
-                        margin-top:    8px;
-                        margin-bottom: 8px
-                }
-                    }
+    .footer-home-right ul li {
+        margin-top:    8px;
+        margin-bottom: 8px
+    }
+}
 
 .footer-home-right ul a {
-                    color: white;
-                }
+    color: white;
+}
 
 .footer-home-right ul a:hover {
-                        color: rgba(255,255,255,0.7);
-                    }
+    color: rgba(255,255,255,0.7);
+}
 
 @media (max-width: 1310px) {
 
-.footer-home-right ul {
-                    column-count: 3
-            }
-                }
+    .footer-home-right ul {
+        column-count: 3
+    }
+}
 
 @media (max-width: 1045px) {
 
-.footer-home-right ul {
-                    column-count: 2
-            }
-                }
+    .footer-home-right ul {
+        column-count: 2
+    }
+}
 
 @media (max-width: 782px) {
 
-.footer-home-right ul {
-                    column-count: 1
-            }
-                }
+    .footer-home-right ul {
+        column-count: 1
+    }
+}
 
 .footerSeparator {
-        margin: 0 20px;
-    }
+    margin: 0 20px;
+}
 
 .footerBreadcrumbs {
-        background-color: #262626;
-        color: white;
-    }
+    background-color: #262626;
+    color: white;
+}
 
 .footerBreadcrumbs a {
-            color: white;
-        }
+    color: white;
+}
 
 .footerBreadcrumbs a:hover {
-                color: rgba(255,255,255,0.7);
-            }
+    color: rgba(255,255,255,0.7);
+}
 
 .abbaCopyright {
     padding: 15px 5px 15px 5px;
@@ -277,12 +283,12 @@ footer {
 }
 
 .abbaCopyright a {
-        color: white;
-    }
+    color: white;
+}
 
 .abbaCopyright a:hover {
-            color: rgba(255,255,255,0.7);
-        }
+    color: rgba(255,255,255,0.7);
+}
 
 .sydneyFooterTop {
     height: 15px;
@@ -292,12 +298,12 @@ footer {
 /* About Us page (About Page) */
 
 #about .gdlr-core-personnel-list-content-wrap {
-        min-height: 260px;
-    }
+    min-height: 260px;
+}
 
 #about h3.gdlr-core-column-service-title.gdlr-core-skin-title {
-        margin: 0;
-    }
+    margin: 0;
+}
 
 /* Contact Us page (Contact Page) */
 
@@ -322,119 +328,119 @@ footer {
 }
 
 .abbaButton-buy {
-        background-color: #133064;
-        color: white !important;
-    }
+    background-color: #133064;
+    color: white !important;
+}
 
 .abbaButton-buy:hover {
-            background-color: #334670;
-        }
+    background-color: #334670;
+}
 
 .abbaButton-sell {
-        background-color: white;
-        color: #133064 !important;
-    }
+    background-color: white;
+    color: #133064 !important;
+}
 
 .abbaButton-sell:hover {
-            background-color: #C6D0DD;
-        }
+    background-color: #C6D0DD;
+}
 
 #home-buy-header {
-        font-size: 42px;
-        font-weight: 600;
-        letter-spacing: 0px;
-        text-transform: none;
-        color: #174278;
-    }
+    font-size: 42px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    text-transform: none;
+    color: #174278;
+}
 
 #home-buy-header:hover {
-            color: #334670 !important;
-        }
+    color: #334670 !important;
+}
 
 #home-sell-header {
-        font-size: 42px;
-        font-weight: 600;
-        letter-spacing: 0px;
-        text-transform: none;
-        color: #ffffff;
-    }
+    font-size: 42px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    text-transform: none;
+    color: #ffffff;
+}
 
 #home-sell-header:hover {
-            color: #C6D0DD !important;
-        }
+    color: #C6D0DD !important;
+}
 
 /* Directory page */
 
 #directory h4:after, #directory h5:after, #directory h6:after, #directory h7:after {
-        content: " »";
-    }
+    content: " »";
+}
 
 #directoryUl  {
-        margin-bottom: 50px;
-    }
+    margin-bottom: 50px;
+}
 
 @media(min-width: 950px) {
 
-#directoryUl  {
-            column-count: 2
+    #directoryUl  {
+        column-count: 2
     }
-        }
+}
 
 /* Region pages */
 
 #sydney footer ul, #nsw footer ul {
-        width: 70%;
-        max-width: 900px;
-        list-style: none;
-        margin: 20px auto 20px auto;
-        column-count: 4;
-    }
+    width: 70%;
+    max-width: 900px;
+    list-style: none;
+    margin: 20px auto 20px auto;
+    column-count: 4;
+}
 
 #sydney footer ul a, #nsw footer ul a {
-            color: white;
-        }
+    color: white;
+}
 
 #sydney footer ul a:hover, #nsw footer ul a:hover {
-                color: rgba(255,255,255,0.7);
-            }
+    color: rgba(255,255,255,0.7);
+}
 
 @media (max-width: 1310px) {
 
-#sydney footer ul, #nsw footer ul {
-            width: 60%;
-            column-count: 3
+    #sydney footer ul, #nsw footer ul {
+        width: 60%;
+        column-count: 3
     }
-        }
+}
 
 @media (max-width: 1045px) {
 
-#sydney footer ul, #nsw footer ul {
-            column-count: 2
+    #sydney footer ul, #nsw footer ul {
+        column-count: 2
     }
-        }
+}
 
 @media (max-width: 782px) {
-        #sydney footer ul, #nsw footer ul, #suburb footer ul {
-            column-count: 1;
-        }
+    #sydney footer ul, #nsw footer ul, #suburb footer ul {
+        column-count: 1;
+    }
 }
 
 #suburb footer ul {
-        width: 60%;
-        list-style: none;
-        column-count: 3;
-        text-align: center;
-        max-width: 750px;
-        margin: 20px auto 20px auto;
+    width: 60%;
+    list-style: none;
+    column-count: 3;
+    text-align: center;
+    max-width: 750px;
+    margin: 20px auto 20px auto;
 }
 
 #suburb footer ul a {
-            color: white;
-        }
+    color: white;
+}
 
 #suburb footer ul a:hover {
-                color: rgba(255,255,255,0.7);
-            }
+    color: rgba(255,255,255,0.7);
+}
 
 @media (max-width: 1045px) {
     #suburb footer ul {
@@ -474,20 +480,20 @@ footer {
 
 @media(max-width: 767px) {
     #aus
-        &-main-img {
-            display: none;
-        }
-        .content .icon-grid-item {
-            margin-top: 0;
-        }
+    &-main-img {
+        display: none;
+    }
+    .content .icon-grid-item {
+        margin-top: 0;
+    }
 }
 
 @media(max-width: 999px) {
 
-#headTitleWrap {
+    #headTitleWrap {
         margin-top: -230px
-}
     }
+}
 
 /* All article pages */
 
@@ -500,163 +506,163 @@ footer {
 /* Contact form */
 
 .form-with-image-bg input,
-    .form-with-image-bg textarea {
-        background-color: white !important;
-    }
+.form-with-image-bg textarea {
+    background-color: white !important;
+}
 
 .form-with-image-bg .alt-contact {
-        font-size: 24px;
-        font-weight: bold;
-        color: white;
-        white-space: nowrap;
-        text-align: center;
-        padding-top: 40px;
-    }
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    white-space: nowrap;
+    text-align: center;
+    padding-top: 40px;
+}
 
 .form-with-image-bg .alt-contact-item {
-            display: inline-block;
-        }
+    display: inline-block;
+}
 
 .form-with-image-bg a,
-    .form-with-image-bg i,
-    .form-with-image-bg .alt-contact-item {
-        color: white !important;
-        margin: 10px 14px 0 0;
-    }
+.form-with-image-bg i,
+.form-with-image-bg .alt-contact-item {
+    color: white !important;
+    margin: 10px 14px 0 0;
+}
 
 .form-with-image-bg a:hover,
-    .form-with-image-bg i:hover,
-    .form-with-image-bg .alt-contact-item:hover {
-        color: #cccccc !important;
-    }
+.form-with-image-bg i:hover,
+.form-with-image-bg .alt-contact-item:hover {
+    color: #cccccc !important;
+}
 
 .form-with-image-bg h4 {
-        text-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important;
-    }
+    text-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important;
+}
 
 .form-with-image-bg input[type="submit"]:hover {
-        background-color: #1D81C9 !important;
-        color: white;
-    }
+    background-color: #1D81C9 !important;
+    color: white;
+}
 
 #abbaForm .form-dropdown {
-        padding: 22px;
-    }
+    padding: 22px;
+}
 
 #abbaForm .select-box {
-        cursor: pointer;
-        position : relative;
-        width: 100%;
-        margin-bottom: 20px;
-    }
+    cursor: pointer;
+    position : relative;
+    width: 100%;
+    margin-bottom: 20px;
+}
 
 #abbaForm .select,
-    #abbaForm .label {
-        color: #4e4e4e;
-        display: block;
-        font-size: 15px;
-        font-family: "Open Sans", sans-serif;
-    }
+#abbaForm .label {
+    color: #4e4e4e;
+    display: block;
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+}
 
 #abbaForm .select {
-        width: 100%;
-        position: absolute;
-        top: 0;
-        padding: 5px 0;
-        height: 70px;
-        opacity: 0;
-        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-        background: none transparent;
-        border: 0 none;
-    }
+    width: 100%;
+    position: absolute;
+    top: 0;
+    padding: 5px 0;
+    height: 70px;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    background: none transparent;
+    border: 0 none;
+}
 
 #abbaForm .select-box1 {
-        background: white;
-    }
+    background: white;
+}
 
 #abbaForm .label {
-        position: relative;
-        padding: 5px 10px;
-        cursor: pointer;
-        padding: 22px 25px;
-    }
+    position: relative;
+    padding: 5px 10px;
+    cursor: pointer;
+    padding: 22px 25px;
+}
 
 #abbaForm .label::after {
-        content: "⋁";
-        font-size: 12px;
-        position: absolute;
-        right: 0;
-        top: 0;
-        padding: 5px 15px;
-        padding: 22px 25px;
-    }
+    content: "⋁";
+    font-size: 12px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 5px 15px;
+    padding: 22px 25px;
+}
 
 #abbaForm #signUp label,
-    #abbaForm label[for="signUp"]
-    {
-        color: white;
-        display: inline-block;
-    }
+#abbaForm label[for="signUp"]
+{
+    color: white;
+    display: inline-block;
+}
 
 @media (max-width: 782px) {
 
-#abbaForm #signUp label,
+    #abbaForm #signUp label,
     #abbaForm label[for="signUp"]
     {
-            text-align: center
+        text-align: center
     }
-        }
+}
 
 #abbaForm .signUp {
-        font-weight: bold;
-    }
+    font-weight: bold;
+}
 
 #abbaForm .signUp label {
-            margin: 5px;
-        }
+    margin: 5px;
+}
 
 #abbaForm #formSubmitBtn {
-        margin-top: 4px;
-    }
+    margin-top: 4px;
+}
 
 #abbaForm #signUp {
-        margin-left: 5px;
-        margin-right: 5px;
-    }
+    margin-left: 5px;
+    margin-right: 5px;
+}
 
 @media (max-width: 782px) {
 
-#abbaForm #signUp {
-            margin-left: 30px
+    #abbaForm #signUp {
+        margin-left: 30px
     }
-        }
+}
 
 #abbaForm #signUp label {
-            width: 34px;
-            display: inline-block;
-            margin: 0 !important;
-        }
+    width: 34px;
+    display: inline-block;
+    margin: 0 !important;
+}
 
 #abbaForm #signUpContainer {
-        text-align: right;
-    }
+    text-align: right;
+}
 
 @media (max-width: 782px) {
 
-#abbaForm #signUpContainer {
-            text-align: left;
-            margin-bottom: 30px
+    #abbaForm #signUpContainer {
+        text-align: left;
+        margin-bottom: 30px
     }
-        }
+}
 
-#abbaForm .dependentField {
-        margin-left: 30px;
-        width: calc(100% - 30px);
-    }
+/* #abbaForm .dependentField { */
+/*         margin-left: 30px; */
+/*         width: calc(100% - 30px); */
+/*     } */
 
 #abbaForm .formSubmitBtnContactPage:hover {
-        background-color: #174278 !important;
-    }
+    background-color: #174278 !important;
+}
 
 #formBottomSpace {
     height: 89px;
@@ -665,7 +671,7 @@ footer {
 #formSubmitted,
 #formSubmittedMobile
 {
-    font-size: 24px;
+    font-size: 16px;
     color: #174278;
     background-color: rgba(255,255,255,0.8);
     position: relative;
