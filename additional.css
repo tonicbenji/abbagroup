@@ -511,12 +511,10 @@ footer {
 }
 
 .form-with-image-bg .alt-contact {
-    font-size: 24px;
-    font-weight: bold;
     color: white;
     white-space: nowrap;
     text-align: center;
-    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .form-with-image-bg .alt-contact-item {
@@ -527,7 +525,7 @@ footer {
 .form-with-image-bg i,
 .form-with-image-bg .alt-contact-item {
     color: white !important;
-    margin: 10px 14px 0 0;
+    font-weight: bold;
 }
 
 .form-with-image-bg a:hover,

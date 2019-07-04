@@ -1,2 +1,5 @@
-# Redirect default Netlify subdomain to primary domain
+# Netlify domain => custom domain
 https://abbagroup.netlify.com/* https://abbachildcaresales.com.au/:splat 301!
+
+# Removing /index.html from end of url
+/index.html        /
