@@ -701,3 +701,18 @@ footer {
 body .gdlr-core-input-wrap.gdlr-core-large textarea#nonHubspotTextarea {
     height: 100%;
 }
+
+/* Temporary (while the About Us Our Team section has only three people in it): */
+
+.our-team-list {
+    text-align: center;
+}
+
+.our-team-item {
+    float: none;
+    display: inline-block;
+}
+
+.financity-body .gdlr-core-info-font, .financity-body .financity-info-font {
+    height: 110px;
+}
