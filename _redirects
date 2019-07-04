@@ -1,5 +1,9 @@
 # Netlify domain => custom domain
 https://abbagroup.netlify.com/* https://abbachildcaresales.com.au/:splat 301!
 
-# Removing /index.html from end of url
-/index.html        /
+# Removing /index.html from end of urls
+/index.html                          /
+/buy-childcare/index.html            /buy-childcare
+/sell-childcare/index.html           /sell-childcare
+/buy-childcare/sydney/index.html     /buy-childcare/sydney
+/sell-childcare/sydney/index.html    /sell-childcare/sydney
