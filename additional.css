@@ -714,3 +714,10 @@ body .gdlr-core-input-wrap.gdlr-core-large textarea#nonHubspotTextarea {
 .financity-body .gdlr-core-info-font, .financity-body .financity-info-font {
     height: 110px;
 }
+
+/* End Temporary */
+
+.gdlr-core-personnel-list .gdlr-core-personnel-list-content a:hover {
+    color: #1a2482;
+    text-decoration: underline;
+}
