@@ -15,13 +15,18 @@ function selectOther(selectBox, otherField) {
     jQuery("#" + selectBox).change(function(){
         if(jQuery(this).val()=="other-please-specify") {
             jQuery("#" + otherField).show();
+            jQuery("#" + otherField + " input[type=text]").prop('required', true);
             jQuery("#formBottomSpace").hide();
         } else {
             jQuery("#" + otherField).hide();
+            jQuery("#" + otherField + " input[type=text]").prop('required', false);
             jQuery("#formBottomSpace").show();
         }
     })
 }
+
+selectOther("selectBox1", "interestedInOther");
+selectOther("selectBox2", "hearAboutOther");
 
 jQuery(document).ready(function () {
     function copyToText() {
@@ -54,6 +59,3 @@ jQuery("select").on("change" , function() {
         label = jQuery("[for='" + labelFor + "']");
     label.find(".label-desc").html(selection);
 });
-
-selectOther("selectBox1", "interestedInOther");
-selectOther("selectBox2", "hearAboutOther");

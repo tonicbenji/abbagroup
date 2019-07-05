@@ -1,5 +1,5 @@
 # Netlify domain => custom domain
-https://abbagroup.netlify.com/* https://abbachildcaresales.com.au/:splat 301!
+https://abbagroup.netlify.com/*      https://abbachildcaresales.com.au/:splat 301!
 
 # Removing /index.html from end of urls
 /index.html                          /
