@@ -1,3 +1,2 @@
 User-agent: *
-Disallow: /
-# Disallow: /website-summary.txt
+Disallow: /website-summary.txt
