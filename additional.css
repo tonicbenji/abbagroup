@@ -702,6 +702,10 @@ body .gdlr-core-input-wrap.gdlr-core-large textarea#nonHubspotTextarea {
 
 /* Temporary (while the About Us Our Team section has only three people in it): */
 
+#our-team {
+    color: #174278;
+}
+
 .our-team-list {
     text-align: center;
 }
@@ -709,6 +713,22 @@ body .gdlr-core-input-wrap.gdlr-core-large textarea#nonHubspotTextarea {
 .our-team-item {
     float: none;
     display: inline-block;
+    vertical-align: top;
+}
+@media (min-width: 767px) and (max-width: 1000px) {
+    #about .gdlr-core-personnel-list-content-wrap {
+        min-height: 400px;
+    }
+}
+
+.our-team-item .gdlr-core-personnel-list-content-wrap {
+    position: relative;
+}
+
+.our-team-item .gdlr-core-personnel-list-content {
+    position: absolute;
+    bottom: 8px;
+    width: calc(100% - 64px);
 }
 
 .financity-body .gdlr-core-info-font, .financity-body .financity-info-font {
@@ -720,4 +740,8 @@ body .gdlr-core-input-wrap.gdlr-core-large textarea#nonHubspotTextarea {
 .gdlr-core-personnel-list .gdlr-core-personnel-list-content a:hover {
     color: #1a2482;
     text-decoration: underline;
+}
+
+.abba-blue {
+    color: #174278 !important;
 }
