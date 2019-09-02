@@ -7,3 +7,7 @@ https://abbagroup.netlify.com/*      https://abbachildcaresales.com.au/:splat 30
 /sell-childcare/index.html           /sell-childcare
 /buy-childcare/sydney/index.html     /buy-childcare/sydney
 /sell-childcare/sydney/index.html    /sell-childcare/sydney
+
+# Un-capitalise NSW in urls
+/buy-childcare/NSW.html              /buy-childcare/nsw.html
+/sell-childcare/NSW.html             /sell-childcare/nsw.html
